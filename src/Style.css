@@ -1,0 +1,37 @@
+.navbarBack{
+  background-color: #2A2F4F;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #C4DFDF;
+}
+
+.formInput{
+  width: 400px;
+}
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardGif{
+    width: 18rem;
+    height: 50vh;
+    margin: 10px;
+    box-shadow: 1px slateblue;
+   }
+
+   .cardGif > img {
+    height: 75%;
+   }
+
+   @media screen and (min-width: 1366px) {
+    .cardGif{
+      width: 18rem;
+      height: 38vh;
+      margin: 10px;
+      box-shadow: 1px slateblue;
+     }
+   }
